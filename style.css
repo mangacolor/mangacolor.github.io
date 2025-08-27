@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+}
+
+header {
+  background: #222;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+.search-box input {
+  padding: 5px;
+}
+
+.search-box button {
+  padding: 5px 10px;
+}
+
+.manga-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.manga-card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.manga-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.manga-card h3 {
+  font-size: 16px;
+  padding: 10px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.pagination button, .pagination span {
+  margin: 2px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  background: #fff;
+  cursor: pointer;
+}
+
+.pagination button.active {
+  background: #444;
+  color: #fff;
+}
+
+.pagination button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.manga-detail {
+  padding: 20px;
+}
+
+.manga-detail img {
+  max-width: 200px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.chapter-list {
+  margin-top: 20px;
+}
+
+.chapter-list li {
+  list-style: none;
+  margin: 5px 0;
+}
+
+.chapter-list a {
+  text-decoration: none;
+  color: blue;
+}

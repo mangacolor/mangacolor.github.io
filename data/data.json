@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Kimetsu no Yaiba",
+    "cover": "https://i.imgur.com/1.jpg",
+    "chapters": [
+      { "name": "Chap 1", "link": "https://your-repo-1/chapter1.html" },
+      { "name": "Chap 2", "link": "https://your-repo-1/chapter2.html" }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "One Piece",
+    "cover": "https://i.imgur.com/2.jpg",
+    "chapters": [
+      { "name": "Chap 1", "link": "https://your-repo-2/chapter1.html" },
+      { "name": "Chap 2", "link": "https://your-repo-2/chapter2.html" }
+    ]
+  }
+]
