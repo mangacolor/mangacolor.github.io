@@ -2,10 +2,10 @@
   {
     "id": 1,
     "title": "Truyền Thuyết Đức Phật",
-    "cover": "https://github.com/mangacolor/mangacolor_data_1/blob/main/truyen_thuyet_duc_phat/truyenthuyetducphat_bia.jpg",
+    "cover": "https://github.com/mangacolor/mangacolor_data_1/main/truyen_thuyet_duc_phat/truyenthuyetducphat_bia.jpg",
     "chapters": [
-      { "name": "Chap 1", "link": "https://github.com/mangacolor/mangacolor_data_1/blob/main/truyen_thuyet_duc_phat/demo001.html" },
-      { "name": "Chap 2", "link": "https://github.com/mangacolor/mangacolor_data_1/blob/main/truyen_thuyet_duc_phat/demo002.html" }
+      { "name": "Chap 1", "link": "https://github.com/mangacolor/mangacolor_data_1/main/truyen_thuyet_duc_phat/demo001.html" },
+      { "name": "Chap 2", "link": "https://github.com/mangacolor/mangacolor_data_1/main/truyen_thuyet_duc_phat/demo002.html" }
     ]
   },
   {
