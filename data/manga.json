@@ -1,11 +1,11 @@
 [
   {
     "id": 1,
-    "title": "Kimetsu no Yaiba",
-    "cover": "https://i.imgur.com/1.jpg",
+    "title": "Truyền Thuyết Đức Phật",
+    "cover": "https://github.com/mangacolor/mangacolor_data_1/blob/main/truyen_thuyet_duc_phat/truyenthuyetducphat_bia.jpg",
     "chapters": [
-      { "name": "Chap 1", "link": "https://your-repo-1/chapter1.html" },
-      { "name": "Chap 2", "link": "https://your-repo-1/chapter2.html" }
+      { "name": "Chap 1", "link": "https://github.com/mangacolor/mangacolor_data_1/blob/main/truyen_thuyet_duc_phat/demo001.html" },
+      { "name": "Chap 2", "link": "https://github.com/mangacolor/mangacolor_data_1/blob/main/truyen_thuyet_duc_phat/demo002.html" }
     ]
   },
   {
