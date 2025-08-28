@@ -27,10 +27,12 @@ header {
 }
 
 .logo img {
-  max-height: 45px;   /* giới hạn chiều cao logo */
-  width: auto;        /* giữ tỉ lệ gốc */
-  margin-right: 10px; /* khoảng cách logo - chữ */
+  height: 45px;       /* ép chiều cao logo */
+  width: auto !important;   /* giữ tỉ lệ gốc, không bị kéo ngang */
+  margin-right: 10px;
+  display: inline-block;
 }
+
 
 
 .logo span {
