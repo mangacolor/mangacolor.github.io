@@ -18,17 +18,27 @@ header {
   flex-wrap: wrap;
 }
 
-header h1 {
-  margin: 0;
-  font-size: 28px;
-  letter-spacing: 1px;
-}
-
-header h1 a {
+/* Logo + chữ */
+.logo a {
+  display: flex;
+  align-items: center;
   text-decoration: none;
   color: white;
 }
 
+.logo img {
+  height: 45px;   /* chỉnh logo vừa trong header */
+  width: auto;
+  margin-right: 10px; /* khoảng cách logo - chữ */
+}
+
+.logo span {
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+}
+
+/* Tìm kiếm */
 .search-box {
   display: flex;
   gap: 5px;
@@ -65,7 +75,6 @@ header h1 a {
   padding: 20px;
 }
 
-/* Card truyện */
 .manga-card {
   background: white;
   border-radius: 10px;
