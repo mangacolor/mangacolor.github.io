@@ -58,23 +58,25 @@ header h1 a {
 
 /* ========== Lưới truyện (trang chủ) ========== */
 .manga-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;  /* căn giữa card khi ít truyện */
   gap: 20px;
   padding: 20px;
-  justify-items: center; /* căn giữa card khi ít truyện */
 }
 
+/* Card truyện */
 .manga-card {
   background: white;
   border-radius: 10px;
   overflow: hidden;
-  width: 180px; /* card nhỏ gọn, cố định */
+  width: 200px; /* cố định chiều rộng card */
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   display: flex;
   flex-direction: column;
   text-align: center;
+  position: relative;
 }
 
 .manga-card:hover {
@@ -82,14 +84,45 @@ header h1 a {
   box-shadow: 0 6px 15px rgba(0,0,0,0.15);
 }
 
+/* Ảnh bìa */
 .manga-card img {
   width: 100%;
-  height: 240px;
-  object-fit: cover;
+  height: 280px;          /* đồng bộ chiều cao ảnh */
+  object-fit: contain;    /* hiển thị toàn bộ ảnh */
+  background: #fafafa;    /* nền để không bị trống */
   display: block;
   border-bottom: 1px solid #eee;
+  transition: transform 0.3s ease;
 }
 
+/* Overlay hover */
+.manga-card::after {
+  content: "Xem chi tiết";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 280px;
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  font-size: 16px;
+}
+
+.manga-card:hover img {
+  transform: scale(1.05); /* phóng to nhẹ */
+}
+
+.manga-card:hover::after {
+  opacity: 1;
+}
+
+/* Tên truyện */
 .manga-card h3 {
   font-size: 15px;
   padding: 8px;
@@ -197,13 +230,14 @@ header h1 a {
 /* ========== Responsive ========== */
 @media (max-width: 992px) {
   .manga-grid {
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 15px;
   }
 }
 
 @media (max-width: 600px) {
   .manga-grid {
-    grid-template-columns: 1fr; /* Mobile: 1 cột */
+    flex-direction: column;
+    align-items: center;
   }
 
   header {
