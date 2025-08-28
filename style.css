@@ -27,10 +27,11 @@ header {
 }
 
 .logo img {
-  height: 45px;   /* chỉnh logo vừa trong header */
-  width: auto;
+  max-height: 45px;   /* giới hạn chiều cao logo */
+  width: auto;        /* giữ tỉ lệ gốc */
   margin-right: 10px; /* khoảng cách logo - chữ */
 }
+
 
 .logo span {
   font-size: 22px;
