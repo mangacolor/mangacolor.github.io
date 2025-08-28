@@ -1,22 +1,14 @@
 let currentPage = 1;
 const mangaPerPage = 6;
 let allManga = [];
-let originalManga = []; // Giữ danh sách gốc
 
 // Load danh sách truyện vào index.html
 function loadMangaList() {
   fetch("data/manga.json")
     .then(res => res.json())
     .then(data => {
-      originalManga = data;           // Lưu bản gốc
-      allManga = [...originalManga];  // Copy ra biến hiển thị
+      allManga = data;
       renderPage(1);
-
-      // Gắn tìm kiếm realtime cho ô input
-      const searchBox = document.getElementById("searchInput");
-      if (searchBox) {
-        searchBox.addEventListener("input", searchManga);
-      }
     })
     .catch(err => {
       document.getElementById("manga-list").innerHTML = "Lỗi tải dữ liệu!";
@@ -37,7 +29,7 @@ function renderPage(page) {
     let card = document.createElement("div");
     card.className = "manga-card";
     card.innerHTML = `
-      <a href="detail.html?id=${manga.id}" target="_blank" rel="noopener noreferrer">
+      <a href="detail.html?id=${manga.id}">
         <img src="${manga.cover}" alt="${manga.title}">
         <h3>${manga.title}</h3>
       </a>
@@ -48,18 +40,12 @@ function renderPage(page) {
   renderPagination();
 }
 
-// Tìm kiếm truyện (realtime)
+// Tìm kiếm truyện
 function searchManga() {
   let keyword = document.getElementById("searchInput").value.toLowerCase();
-
-  if (keyword.trim() === "") {
-    // Nếu không nhập gì -> trả lại toàn bộ danh sách
-    allManga = [...originalManga];
-  } else {
-    allManga = originalManga.filter(m => m.title.toLowerCase().includes(keyword));
-  }
-
+  let filtered = allManga.filter(m => m.title.toLowerCase().includes(keyword));
   currentPage = 1;
+  allManga = filtered;
   renderPage(currentPage);
 }
 
@@ -129,7 +115,7 @@ function loadMangaDetail() {
         <img src="${manga.cover}" alt="${manga.title}">
         <h2>${manga.title}</h2>
         <ul class="chapter-list">
-          ${manga.chapters.map(ch => `<li><a href="${ch.link}" target="_blank" rel="noopener noreferrer">${ch.name}</a></li>`).join("")}
+          ${manga.chapters.map(ch => `<li><a href="${ch.link}" target="_blank">${ch.name}</a></li>`).join("")}
         </ul>
       `;
       document.getElementById("manga-detail").innerHTML = html;
