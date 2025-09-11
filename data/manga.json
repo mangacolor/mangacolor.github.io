@@ -1,5 +1,5 @@
 [
-    {
+  {
     "id": 0,
     "title": "dat_ten_truyen",
     "cover": "https://i.imgur.com/2.jpg",
@@ -7,7 +7,7 @@
       { "name": "Chap 1", "link": "https://your-repo-2/chapter1.html" },
       { "name": "Chap 2", "link": "https://your-repo-2/chapter2.html" }
     ]
-  }
+  },
   {
     "id": 1,
     "title": "Truyền Thuyết Đức Phật",
@@ -101,5 +101,5 @@
       { "name": "Tập 10", "link": "https://mangacolor.github.io/mangacolor_data_1/Nguoi_ba_tai_gioi_vung_Saga_Tap_10.html" },
       { "name": "Tập 11", "link": "https://mangacolor.github.io/mangacolor_data_1/Nguoi_ba_tai_gioi_vung_Saga_Tap_11.html" },
     ]
-  },
+  }
 ]
