@@ -1236,6 +1236,45 @@
       { "name": "Chap 1123", "link": "https://mangacolor.github.io/mangacolor_data_5/conan_chap_1123.html" }
 
     ]
+  },
+
+  {
+    "id": 4,
+    "title": "Bác Sĩ Quái Dị",
+    "cover": "https://mangacolor.github.io/mangacolor_data_6/bac_si_quai_di_bia.jpg",
+    "chapters": [
+      { "name": "Tập 1 - Chuyện 01", "link": "https://mangacolor.github.io/mangacolor_data_6/bac_si_quai_di_tap_01_01.html" },
+      { "name": "Tập 1 - Chuyện 02", "link": "https://mangacolor.github.io/mangacolor_data_6/bac_si_quai_di_tap_01_02.html" },
+      { "name": "Tập 1 - Chuyện 03", "link": "https://mangacolor.github.io/mangacolor_data_6/bac_si_quai_di_tap_01_03.html" },
+      { "name": "Tập 1 - Chuyện 04", "link": "https://mangacolor.github.io/mangacolor_data_6/bac_si_quai_di_tap_01_04.html" },
+      { "name": "Tập 1 - Chuyện 05", "link": "https://mangacolor.github.io/mangacolor_data_6/bac_si_quai_di_tap_01_05.html" },
+      { "name": "Tập 1 - Chuyện 06", "link": "https://mangacolor.github.io/mangacolor_data_6/bac_si_quai_di_tap_01_06.html" },
+      { "name": "Tập 1 - Chuyện 07", "link": "https://mangacolor.github.io/mangacolor_data_6/bac_si_quai_di_tap_01_07.html" },
+      { "name": "Tập 1 - Chuyện 08", "link": "https://mangacolor.github.io/mangacolor_data_6/bac_si_quai_di_tap_01_08.html" },
+      { "name": "Tập 1 - Chuyện 09", "link": "https://mangacolor.github.io/mangacolor_data_6/bac_si_quai_di_tap_01_09.html" },
+      { "name": "Tập 2 - Chuyện 01", "link": "https://mangacolor.github.io/mangacolor_data_6/bac_si_quai_di_tap_02_01.html" },
+      { "name": "Tập 2 - Chuyện 02", "link": "https://mangacolor.github.io/mangacolor_data_6/bac_si_quai_di_tap_02_02.html" },
+      { "name": "Tập 2 - Chuyện 03", "link": "https://mangacolor.github.io/mangacolor_data_6/bac_si_quai_di_tap_02_03.html" },
+      { "name": "Tập 2 - Chuyện 04", "link": "https://mangacolor.github.io/mangacolor_data_6/bac_si_quai_di_tap_02_04.html" },
+      { "name": "Tập 2 - Chuyện 05", "link": "https://mangacolor.github.io/mangacolor_data_6/bac_si_quai_di_tap_02_05.html" },
+      { "name": "Tập 2 - Chuyện 06", "link": "https://mangacolor.github.io/mangacolor_data_6/bac_si_quai_di_tap_02_06.html" },
+      { "name": "Tập 2 - Chuyện 07", "link": "https://mangacolor.github.io/mangacolor_data_6/bac_si_quai_di_tap_02_07.html" },
+      { "name": "Tập 2 - Chuyện 08", "link": "https://mangacolor.github.io/mangacolor_data_6/bac_si_quai_di_tap_02_08.html" },
+      { "name": "Tập 2 - Chuyện 09", "link": "https://mangacolor.github.io/mangacolor_data_6/bac_si_quai_di_tap_02_09.html" },
+      { "name": "Tập 2 - Chuyện 10", "link": "https://mangacolor.github.io/mangacolor_data_6/bac_si_quai_di_tap_02_10.html" },
+      { "name": "Tập 2 - Chuyện 10", "link": "https://mangacolor.github.io/mangacolor_data_6/bac_si_quai_di_tap_02_10.html" },
+      { "name": "Tập 3 - Chuyện 01", "link": "https://mangacolor.github.io/mangacolor_data_6/bac_si_quai_di_tap_03_01.html" },
+      { "name": "Tập 3 - Chuyện 02", "link": "https://mangacolor.github.io/mangacolor_data_6/bac_si_quai_di_tap_03_02.html" },
+      { "name": "Tập 3 - Chuyện 03", "link": "https://mangacolor.github.io/mangacolor_data_6/bac_si_quai_di_tap_03_03.html" },
+      { "name": "Tập 3 - Chuyện 04", "link": "https://mangacolor.github.io/mangacolor_data_6/bac_si_quai_di_tap_03_04.html" },
+      { "name": "Tập 3 - Chuyện 05", "link": "https://mangacolor.github.io/mangacolor_data_6/bac_si_quai_di_tap_03_05.html" },
+      { "name": "Tập 3 - Chuyện 06", "link": "https://mangacolor.github.io/mangacolor_data_6/bac_si_quai_di_tap_03_06.html" },
+      { "name": "Tập 3 - Chuyện 07", "link": "https://mangacolor.github.io/mangacolor_data_6/bac_si_quai_di_tap_03_07.html" },
+      { "name": "Tập 3 - Chuyện 08", "link": "https://mangacolor.github.io/mangacolor_data_6/bac_si_quai_di_tap_03_08.html" },
+      { "name": "Tập 3 - Chuyện 09", "link": "https://mangacolor.github.io/mangacolor_data_6/bac_si_quai_di_tap_03_09.html" },
+      { "name": "Tập 3 - Chuyện 10", "link": "https://mangacolor.github.io/mangacolor_data_6/bac_si_quai_di_tap_03_10.html" }
+      
+    ]
   }
 
 ]
