@@ -1464,6 +1464,26 @@
       { "name": "Tập 22 - Chuyện 09", "link": "https://mangacolor.github.io/mangacolor_data_7/bac_si_quai_di_tap_22_09.html" },
       { "name": "Tập 22 - Chuyện 10", "link": "https://mangacolor.github.io/mangacolor_data_7/bac_si_quai_di_tap_22_10.html" }
     ]
+  },
+
+  {
+    "id": 5,
+    "title": "Thập Đại Đệ Tử Phật Thích Ca",
+    "cover": "https://mangacolor.github.io/mangacolor_data_7/thap_dai_de_tu_duc_phat_bia.jpg",
+    "chapters": [
+      { "name": "A Na Luật", "link": "https://mangacolor.github.io/mangacolor_data_7/A-na-luat.html" },
+      { "name": "A Nan", "link": "https://mangacolor.github.io/mangacolor_data_7/A-nan.html" },
+      { "name": "Ca Chiên Diên", "link": "https://mangacolor.github.io/mangacolor_data_7/Ca-chien-dien.html" },
+      { "name": "Cấp Cô Độc", "link": "https://mangacolor.github.io/mangacolor_data_7/Cap-co-doc.html" },
+      { "name": "Đại Ca Diếp", "link": "https://mangacolor.github.io/mangacolor_data_7/Dai-ca-diep.html" },
+      { "name": "La Hầu La", "link": "https://mangacolor.github.io/mangacolor_data_7/La-hau-la.html" },
+      { "name": "Mục Kiền Liên", "link": "https://mangacolor.github.io/mangacolor_data_7/Muc-kien-lien.html" },
+      { "name": "Phú Lâu Na", "link": "https://mangacolor.github.io/mangacolor_data_7/Phu-lau-na.html" },
+      { "name": "Tu Bồ Đề", "link": "https://mangacolor.github.io/mangacolor_data_7/Tu-bo-de.html" },
+      { "name": "Upali", "link": "https://mangacolor.github.io/mangacolor_data_7/Upali.html" },
+      { "name": "Visakha", "link": "https://mangacolor.github.io/mangacolor_data_7/Visakha.html" },
+      { "name": "Xá Lợi Phất", "link": "https://mangacolor.github.io/mangacolor_data_7/Xa-loi-phat.html" }
+    ]
   }
 
 ]
